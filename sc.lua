@@ -25,3 +25,10 @@ for i = 1, 50, 2 do
 end
 blur:Destroy()
 ScreenGui:Destroy()
+wait(3)
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Tesla";
+    Text = 'Thx for use it';
+    Icon = "";
+    Duration = 3;
+})
